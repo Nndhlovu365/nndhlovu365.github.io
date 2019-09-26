@@ -478,7 +478,7 @@ section{
 
 /* Media queries */
 
-@media screen and (max-width: 900px){
+@media screen and (Max-width: 900px){
     body{
         background: linear-gradient(to right bottom, rgba(15, 15, 15, 0.6), rgba(17, 17, 17, 0.6)), url(images/img_50.jpg) no-repeat center fixed;
         background-size: cover;
@@ -534,8 +534,58 @@ section{
         width: 7rem;
         height: 7rem;
     }
-
-   
 }
 
+@media screen and (Max-width: 600px){
+    .menu-toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .landing-text h1{
+        font-size: 4rem;
+    }
+
+    .landing-text h6{
+        font-size: 2rem;
+    }
+
+    .nav-link{
+        font-size: 2.5rem;
+    }
+
+    .about-heading p{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .about-heading h1{
+        font-size: 3rem;
+    }
+
+    .about-heading h6{
+        font-size: 1.5rem;
+    }
+
+    .section-heading h1{
+        font-size: 3rem;
+        letter-spacing: .2rem;
+    }
+
+    .section-heading h6{
+        font-size: 1rem;
+    }
+
+    .skill h1{
+        font-size: 1.8rem;
+    }
+
+    .skill p{
+        font-size: 1.7rem;
+    }
+
+    form{
+        width: 50%;
+    }
+}
 /* ********************************** */
