@@ -587,5 +587,15 @@ section{
     form{
         width: 50%;
     }
+    
+    .up{
+        right: 1rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .up i{
+        font-size: 1.5rem;
+    }
 }
 /* ********************************** */
