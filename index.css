@@ -13,7 +13,8 @@ html{
 }
 
 body{
-    width: 100%;
+    width: auto;
+    maax-width: 100%;
     height: 100%;
     background: linear-gradient(to right bottom, rgba(15, 15, 15, 0.6), rgba(17, 17, 17, 0.6)), url(images/img_50.jpg) no-repeat center fixed;
     background-size: cover;
@@ -30,9 +31,7 @@ p{
 }
 
 img{
-    width: auto;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
 }
 
 /* ******************************* */
@@ -480,10 +479,10 @@ section{
 
 /* Media queries */
 
-@media screen and (Max-width: 900px){
+@media screen and (max-width: 900px){
     body{
         background: linear-gradient(to right bottom, rgba(15, 15, 15, 0.6), rgba(17, 17, 17, 0.6)), url(images/img_50.jpg) no-repeat center fixed;
-        background-size: contain;
+        background-size: cover;
     }
 
     .landing-text h1{
