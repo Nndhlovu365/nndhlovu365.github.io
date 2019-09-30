@@ -54,9 +54,9 @@
                     <p>
                         I am a web developer with a focus and passion of creating great web experiences. 
                         I enjoy creating beautifully designed, responsive and functional websites.
-                        I have a driven mindset towards learning new technologies and building applications towards REST architecture. 
+                        I have a driven mindset towards learning new technologies and apply the new skills and overcome challenges. 
                     </p>
-                    <div class="social-media">
+                    <div class="social-media" data-aos="fade-up" data-aos-delay="600">
                         <ul class="nav-list">
                             <li>
                                 <a href="https://www.facebook.com/nomthi.ndhlovu" class="icon-link"><i class="fab fa-facebook-square"></i></a>
@@ -65,7 +65,7 @@
                                 <a href="https://www.linkedin.com/in/nomthandazo-ndhlovu-78a754155" class="icon-link"><i class="fab fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="https://github.com/Nndhlovu365" class="icon-link"><i class="fab fa-github-square"></i></i></a>
+                                <a href="https://github.com/Nndhlovu365" class="icon-link"><i class="fab fa-github-square"></i></a>
                             </li>
                         </ul>
                         <hr>
@@ -96,7 +96,7 @@
                         <i class="fas fa-tablet-alt"></i>
                     </div>
                     <p>
-                        Built for any device, mobile and desktop.
+                        Fast loading and built for any device, mobile, tablet and desktop.
                     </p>
                 </div>
                 <div class="skill" data-aos="flip-left">                    
@@ -117,48 +117,42 @@
         <div class="container">
             <div class="section-heading" data-aos="fade-up" data-aos-delay="300">
                 <h1>Portfolio</h1>
-                <h6>View my personal projects.</h6>
+                <h6>View my personal projects</h6>
             </div>
             <div class="items">
-            <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
-                <div class="portfolio-img">
-                    <img src="images/todo.png" alt="" data-aos="flip-right" data-aos-delay="300">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="img-wrap" data-aos="flip-left" data-aos-delay="300">
+                        <img class="img" src="images/todo.png">
+                        <p class="img-desc">Simple todo list app for creating a list of tasks.</p>                       
+                    </div>
                     <div class="portfolio-description">
                         <h1>To Do List</h1>
-                        <p>
-                            
-                        </p>
                         <a href="https://todo-t-app.herokuapp.com" class="btn">View demo</a>
                     </div>
                 </div>
-            </div>
-            <div class="portfolio-item" data-aos="fade-up" data-aos-delay="600">
-                <div class="portfolio-img">
-                    <img src="images/score.png" alt="" data-aos="flip-left" data-aos-delay="600">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="img-wrap" data-aos="flip-right" data-aos-delay="600">
+                        <img class="img" src="images/score.png">
+                        <p class="img-desc">Score keeper game created with HTML, CSS and Javascript.</p>
+                    </div>
                     <div class="portfolio-description">
                         <h1>Score Keeper</h1>
-                        <p>
-                            
-                        </p>
                         <a href="https://nomthandazoe.github.io" class="btn">View demo</a>
                     </div>
                 </div>
-            </div>
-            <div class="portfolio-item" data-aos="fade-up" data-aos-delay="900">
-                <div class="portfolio-img">
-                    <img src="images/color.png" alt="" data-aos="flip-right" data-aos-delay="900">
-                    <div class="portfolio-description">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="900">
+                    <div class="img-wrap" data-aos="flip-left" data-aos-delay="900">
+                        <img class="img" src="images/color.png">
+                        <p class="img-desc">Fun and simple RGB color guessing game.</p>
+                    </div>  
+                    <div class="portfolio-description"> 
                         <h1>Color Game</h1>
-                        <p>
-                            
-                        </p>
                         <a href="https://guess-rgb-c.herokuapp.com/" class="btn">View demo</a>
-                    </div>
+                    </div>  
                 </div>
-            </div>
-            <div class="portfolio-item" data-aos="flip-left" data-aos-delay="1200">
-                <p id="progress">More work and learning in <progress class=""></progress></p>
-            </div>
+                <div class="progress" data-aos="flip-right" data-aos-delay="1200">
+                    <p id="progress">A developer never stops learning, more work and learning in progress <progress class=""></progress></p>
+                </div>
             </div>
             <hr>
         </div>
@@ -176,7 +170,8 @@
                     <img src="icons/html5.svg">
                     <img src="icons/css3.svg">
                     <img src="icons/js.svg">
-                    <img src="icons/angularjs.svg">
+                    <img src="icons/jquery.svg">
+                    <img src="icons/bootstrap.svg">
                 </div>
                 <div class="skills" data-aos="flip-left">
                     <h1>Back End</h1>
@@ -197,12 +192,12 @@
                 <h1>Contact</h1>
                 <h6>Get in touch</h6>
             </div>
-            <form action="https://www.enformed.io/jvmawjk6" method="POST" data-aos="fade-up" data-aos-delay="300" method="POST">
+            <form method="POST" action="http://formspree.io/email@domain.tld" data-aos="fade-up" data-aos-delay="300" method="POST">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="_replyto" placeholder="Enter your email" required>
-                <label for="message">Message:</label>
+                <label for="message">Subject:</label>
                 <textarea name="body" id="message" cols="10" rows="10"></textarea>
                 <input type="submit" value="Submit">
             </form>
