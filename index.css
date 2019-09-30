@@ -298,26 +298,6 @@ li{
 .portfolio-img img{
     border-radius: 10%;
     height: 20rem;
-    transition: all 0.3s;
-}
-
-.portfolio-img:hover img{
-    filter: blur(2px) brightness(60%);
-    box-shadow: 0 0 16px black;
-}
-
-.portfolio-img p{
-    position: absolute;
-    top: 35%;
-    z-index: 1;
-    color: #f8f5f2;
-    text-align: center;
-    opacity: 0;
-    padding-left: 1rem;
-}
-
-.portfolio-img:hover p{
-    opacity: 1;
 }
 
 .btn{
