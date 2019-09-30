@@ -278,13 +278,34 @@ li{
     position: relative;
 }
 
-.portfolio-item{
-    display: inline;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+.img-wrap{
+    position: relative;
     width: 20rem;
+    display: inline-block;
+}
+
+.img{
+    height: 20rem;
+    border-radius: 10%;
+}
+
+.img-desc{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 6rem;
+    background: #f8f5f2;
+    color: #727072;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.img-wrap:hover .img-desc{
+    visibility: visible;
+    opacity: 1;
 }
 
 .portfolio-description h1{
@@ -295,10 +316,6 @@ li{
     opacity: 0.5;
 }
 
-.portfolio-img img{
-    border-radius: 10%;
-    height: 20rem;
-}
 
 .btn{
     text-decoration: none;
@@ -313,16 +330,14 @@ li{
 }
 
 #progress{
-    margin-top: 10rem;
+    margin-top: 7rem;
 }
 /* ********************************** */
 
 /* Skills */
 
 .skills{
-    display: inline;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin: 0 auto;
@@ -482,6 +497,11 @@ section{
 /* Media queries */
 
 @media screen and (Max-width: 900px){
+    body{
+        background-image: linear-gradient(to right bottom, rgba(15, 15, 15, 0.6), rgba(17, 17, 17, 0.6)), url(images/img.jpg) no-repeat center fixed;
+        background-size: cover;
+        background-position: bottom;
+    }
 
     .landing-text h1{
         margin-top: 8rem;
@@ -536,6 +556,13 @@ section{
 }
 
 @media screen and (Max-width: 600px){
+
+    body{
+        background-image: url(images/img.png) fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .menu-toggler{
         top: 2rem;
         right: 2rem;
