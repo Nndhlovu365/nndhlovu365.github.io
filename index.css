@@ -77,7 +77,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #a8a8a7, #fffcff);
+    background: linear-gradient(to top, #636361, #fffcff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
