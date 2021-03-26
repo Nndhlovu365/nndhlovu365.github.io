@@ -16,7 +16,7 @@ body{
     width: auto;
     max-width: 100%;
     height: 100%;
-    background: linear-gradient(to right bottom, rgba(15, 15, 15, 0.3), rgba(17, 17, 17, 0.3)), url(images/presentation.jpeg) no-repeat center fixed;
+    background: linear-gradient(to right bottom, rgba(15, 15, 15, 0.4), rgba(17, 17, 17, 0.3)), url(images/presentation.jpeg) no-repeat center fixed;
     background-size: cover;
 }
 
