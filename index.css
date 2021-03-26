@@ -498,7 +498,7 @@ section{
 
 @media screen and (Max-width: 900px){
     body{
-        background-image: linear-gradient(to right bottom, rgba(15, 15, 15, 0.6), rgba(17, 17, 17, 0.6)), url(images/presentation.jpeg) no-repeat center fixed;
+        background-image: linear-gradient(to right bottom, rgba(15, 15, 15, 0.4), rgba(17, 17, 17, 0.4)), url(images/presentation.jpeg) no-repeat center fixed;
         background-size: cover;
         background-position: bottom;
     }
@@ -558,10 +558,9 @@ section{
 @media screen and (Max-width: 600px){
 
     body{
-        background-image: url(images/presentation.jpeg) fixed;
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: linear-gradient(to right bottom, rgba(15, 15, 15, 0.4), rgba(17, 17, 17, 0.4)), url(images/presentation.jpeg) no-repeat center fixed;
         background-size: cover;
+        background-position: bottom;
     }
     .menu-toggler{
         top: 2rem;
